@@ -1,0 +1,21 @@
+﻿Build started 10/22/2015 12:09:36 AM.
+     1>Project "C:\Users\junem\Desktop\Class\CS 174A\Project1\Project1\Project1.vcxproj" on node 2 (Build target(s)).
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /sdl /Od /Oy- /D _MBCS /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"Debug\\" /Fd"Debug\vc140.pdb" /Gd /TP /analyze- /errorReport:prompt "..\my code\Animation.cpp"
+         Animation.cpp
+     1>c:\users\junem\desktop\class\cs 174a\project1\cs174a template\shapes.h(466): warning C4244: 'initializing': conversion from 'double' to 'int', possible loss of data
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\junem\Desktop\Class\CS 174A\Project1\Debug\Project1.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /Debug /PDB:"C:\Users\junem\Desktop\Class\CS 174A\Project1\Debug\Project1.pdb" /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\Users\junem\Desktop\Class\CS 174A\Project1\Debug\Project1.lib" /MACHINE:X86 Debug\Animation.obj
+     1>LINK : warning LNK4098: defaultlib 'LIBCMT' conflicts with use of other libs; use /NODEFAULTLIB:library
+     1>glew32s.lib(glew.obj) : warning LNK4099: PDB 'vc120.pdb' was not found with 'glew32s.lib(glew.obj)' or at 'C:\Users\junem\Desktop\Class\CS 174A\Project1\Debug\vc120.pdb'; linking object as if no debug info
+         Project1.vcxproj -> C:\Users\junem\Desktop\Class\CS 174A\Project1\Debug\Project1.exe
+       PostBuildEvent:
+         xcopy "..\GL\Win32\*.dll" "C:\Users\junem\Desktop\Class\CS 174A\Project1\Debug\" /i /r /y
+         :VCEnd
+         ..\GL\Win32\freeglut.dll
+         1 File(s) copied
+     1>Done Building Project "C:\Users\junem\Desktop\Class\CS 174A\Project1\Project1\Project1.vcxproj" (Build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:15.82
